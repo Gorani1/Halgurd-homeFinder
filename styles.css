@@ -1,0 +1,30 @@
+.jumbotron {
+    margin: 0;
+    padding: 20px;
+    background-image: linear-gradient(to right, #e8c88d, #3046C5, #59a9ac);
+    color: rgb(255, 255, 255); }
+
+    .image {
+        background-image: url("img/mountain.jpg");
+        height: 500px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+     
+    }
+h1 {
+    color: rgb(197, 175, 48);
+}
+    
+    
+ 
+
+    .search {
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        pad: 10px;
+        
+     }
+    
