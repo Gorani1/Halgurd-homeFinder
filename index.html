@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
     <link rel="stylesheet" href="styles.css" />
-   
+
 
 </head>
 
@@ -26,45 +26,52 @@
                     <h1> Halgurd Home Finder </h1>
 
                 </div>
-               
+
             </div>
         </div>
     </header>
-    <nav  id="navbar" class="navbar navbar-expand-lg navbar-light bg-primary">
-      
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-primary">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
         <div id="navbar" class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#"><h1>Home</h1></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><h1>Sell</h1></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><h1>Rent</h1></a>
-            </li>
-           
-          </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">
+                        <h2>Home</h2>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <h2> For Sell</h2>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <h2> For Rent</h2>
+                    </a>
+                </li>
+
+            </ul>
         </div>
-      </nav>
+    </nav>
 
     <div class="image">
+
+        <div class="search">
+                <select name="country" class="countries order-alpha include-IQ" id="countryId">
+                        <option value="">Select Country</option>
+                    </select>
+                    <select name="state" class="states order-alpha" id="stateId">
+                        <option value="">Select State</option>
+                    </select>
+                    <select name="city" class="cities order-alpha" id="cityId">
+                        <option value="">Select City</option>
+                    </select>
        
-       <div class="search">
-        <select id="input" onchange="random_function()">
-            
-            <option>select option</option>
-            <option>IRAQ</option>
-            <option>USA</option>
-        </select>
-        <submit> </submit>
-        <div>
-           <select id="output" onchange="random_function1()">
         </div>
-    </div>
     </div>
 
     <footer class="site-footer">
@@ -96,7 +103,7 @@
                         1-206-555-1234<br />
                         <a role="button" class="btn btn-link" href="mailto:campsites@nucamp.co"><i
                                 class="fa fa-envelope fa-lg text-primary"></i>
-                            campsites@nucamp.co
+
                 </div>
             </div>
         </div>
@@ -106,7 +113,8 @@
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="script.js"></script>
-
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
+<script src="//geodata.solutions/includes/countrystatecity.js"></script>
 
 </body>
 
